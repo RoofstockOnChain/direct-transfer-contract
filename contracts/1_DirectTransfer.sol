@@ -26,7 +26,7 @@ contract DirectTransfer {
     /**
      * @dev Initiate a transfer from current owner, but wait for new owner to confirm
      * @param newOwner the new address that the token will be transfered to
-     * @param smartContractAddress the address of the ERC720 contract 
+     * @param smartContractAddress the address of the ERC721 contract 
      * @param tokenId the tokenId of the token to be transfered
      */
     function initiateTransfer(address newOwner, address smartContractAddress, uint tokenId) public {
@@ -41,7 +41,7 @@ contract DirectTransfer {
 
     /**
      * @dev Approve a transfer from current owner to new owner
-     * @param smartContractAddress the address of the ERC720 contract
+     * @param smartContractAddress the address of the ERC721 contract
      * @param tokenId the tokenId of the token to be transfered
      */
     function approveTransfer(address smartContractAddress, uint tokenId) public {

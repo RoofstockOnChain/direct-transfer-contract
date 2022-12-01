@@ -2,7 +2,7 @@
 This smart contract is used to transfer any ERC720 or ERC721 token from the current owner to a new owner and the new owner will have to approve the request
 
 ## Prerequisites
-- In order to initiate a transfer the current smart contract address should be set as an approved address for the token being transfered.
+- In order to initiate a transfer the direct-transfer smart contract address should be set as an approved address for the token being transfered.
 
 ## Functions
 #### initiateTransfer
